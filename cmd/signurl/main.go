@@ -63,7 +63,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	req, err := http.NewRequest("PUT", url, in)
+	req, err := http.NewRequest(http.MethodPut, url, in)
 	if err != nil {
 		log.Fatal(err)
 	}
