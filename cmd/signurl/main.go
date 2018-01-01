@@ -21,9 +21,17 @@ var (
 			"have write privileges for this bucket.")
 )
 
-// Store key in datastore.
+// Done - Store key in datastore.
+//    namespace=pusher-receiver
+//    kind=service-account-key
+//    name=gcs-url-signer-test@mlab-sandbox.iam.gserviceaccount.com
+
 // Fetch key and extract private_key during start up.
+//    Standard AE? Or, AEFlex?
+
 // Load whitelist from a set of machine inventory.
+//    Need to define schema for datastore.
+
 // Accept requests from whitelisted machines.
 // Generate and return Signed URLs
 // That's it.
